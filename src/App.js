@@ -9,6 +9,7 @@ import Carausal from './Components/Carausal';
 import Tag from './Components/Tag';
 import GuessGame from './Components/GuessGame';
 import RegistrationPage from './Components/RegistrationPage';
+import ThemeToggle from './Components/ToggleTheme';
 
 function App() {
   return (
@@ -33,7 +34,8 @@ function App() {
         {/* <Carausal />
         <Tag />
         <GuessGame /> */}
-        <RegistrationPage />
+        {/* <RegistrationPage /> */}
+        <ThemeToggle />
       </header>
     </div>
   );
